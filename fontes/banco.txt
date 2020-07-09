@@ -1,0 +1,16 @@
+#Criar uma base de Dados chamada aula3
+CREATE DATABASE aula3;
+
+#Conectar na base de Dados
+USE aula3;
+
+CREATE TABLE produto(
+id INT PRIMARY KEY AUTO_INCREMENT,
+nomeproduto VARCHAR(50),
+preco DOUBLE(10,2),
+custo DOUBLE(10,2),
+categoria VARCHAR(50));
+#DOUBLE() -> Numero Real, com casas decimais
+
+#Descrever, mostrar a tabela que foi gerada
+DESC produto;
